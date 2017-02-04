@@ -1,0 +1,156 @@
+var group__phalTop__Sw =
+[
+    [ "phalTop_T1T_LockCtrlTlv", "d9/d3e/structphalTop__T1T__LockCtrlTlv.html", [
+      [ "wOffset", "d9/d3e/structphalTop__T1T__LockCtrlTlv.html#a52d5ab7b3d9e2c7c705d5cfac311cceb", null ],
+      [ "wByteAddr", "d9/d3e/structphalTop__T1T__LockCtrlTlv.html#a6db406f718801dac6be325f652760a76", null ],
+      [ "bSizeInBits", "d9/d3e/structphalTop__T1T__LockCtrlTlv.html#a5eb86a53755760a03d13601a4bd6c8f8", null ],
+      [ "bBytesPerPage", "d9/d3e/structphalTop__T1T__LockCtrlTlv.html#abf384814c66aeca5296d615a1b751f01", null ],
+      [ "bBytesLockedPerBit", "d9/d3e/structphalTop__T1T__LockCtrlTlv.html#a8aaa99f53bbafa4242277e957b3917b3", null ]
+    ] ],
+    [ "phalTop_T1T_MemCtrlTlv", "da/d9f/structphalTop__T1T__MemCtrlTlv.html", [
+      [ "wOffset", "da/d9f/structphalTop__T1T__MemCtrlTlv.html#a94367b6f0f5c230d813d8c1a1b07a583", null ],
+      [ "wByteAddr", "da/d9f/structphalTop__T1T__MemCtrlTlv.html#ade64d5e7164a17313e72662762d61159", null ],
+      [ "bSizeInBytes", "da/d9f/structphalTop__T1T__MemCtrlTlv.html#a09b7a0e87e57b18172d7162d3d6dcef5", null ],
+      [ "bBytesPerPage", "da/d9f/structphalTop__T1T__MemCtrlTlv.html#afab1c999bbee122a04c70fcf959d40a9", null ]
+    ] ],
+    [ "phalTop_T1T_ProprietaryTlv", "d8/d31/structphalTop__T1T__ProprietaryTlv.html", [
+      [ "wOffset", "d8/d31/structphalTop__T1T__ProprietaryTlv.html#ae65e2928ac40e9d6ff202c354e354ffa", null ],
+      [ "wLength", "d8/d31/structphalTop__T1T__ProprietaryTlv.html#a79e8393763f954b674dc680bcea00288", null ]
+    ] ],
+    [ "phalTop_TIT_Segment", "d3/db7/structphalTop__TIT__Segment.html", [
+      [ "bAddress", "d3/db7/structphalTop__TIT__Segment.html#ad7355ba9a33c9a5211882452fc75d238", null ],
+      [ "pData", "d3/db7/structphalTop__TIT__Segment.html#a9968d6bf0d25bb195911dabfa73c3465", null ],
+      [ "bLockReservedOtp", "d3/db7/structphalTop__TIT__Segment.html#af3aaf26546231e9ffc9a843485f12609", null ]
+    ] ],
+    [ "phalTop_T2T_LockCtrlTlv", "d9/d0f/structphalTop__T2T__LockCtrlTlv.html", [
+      [ "wOffset", "d9/d0f/structphalTop__T2T__LockCtrlTlv.html#ac9571d53eaecfd463893e38ef87402e0", null ],
+      [ "wByteAddr", "d9/d0f/structphalTop__T2T__LockCtrlTlv.html#a4a931b224676a34a86f306815dae5dc8", null ],
+      [ "bSizeInBits", "d9/d0f/structphalTop__T2T__LockCtrlTlv.html#a27fe9924bf54743c0940c3d32e56d817", null ],
+      [ "bBytesPerPage", "d9/d0f/structphalTop__T2T__LockCtrlTlv.html#afee6cdf83e2fa95190ef720505944356", null ],
+      [ "bBytesLockedPerBit", "d9/d0f/structphalTop__T2T__LockCtrlTlv.html#a703c5c119d22f47771fc47e944c95a78", null ]
+    ] ],
+    [ "phalTop_T2T_MemCtrlTlv", "d6/d2f/structphalTop__T2T__MemCtrlTlv.html", [
+      [ "wOffset", "d6/d2f/structphalTop__T2T__MemCtrlTlv.html#afff111b8818e43787f689881876c1598", null ],
+      [ "wByteAddr", "d6/d2f/structphalTop__T2T__MemCtrlTlv.html#a4506a38273ddc7839cf0a76b9ae39af1", null ],
+      [ "bSizeInBytes", "d6/d2f/structphalTop__T2T__MemCtrlTlv.html#a5d1353e6119807fef6c95f9eebd6c3fb", null ],
+      [ "bBytesPerPage", "d6/d2f/structphalTop__T2T__MemCtrlTlv.html#a7e81357fad235c8b6742830eec512500", null ]
+    ] ],
+    [ "phalTop_T2T_Sector", "dd/dff/structphalTop__T2T__Sector.html", [
+      [ "bAddress", "dd/dff/structphalTop__T2T__Sector.html#a8d28bbd7ba2510984d3687a71befa6df", null ],
+      [ "bBlockAddress", "dd/dff/structphalTop__T2T__Sector.html#af105502ffd4da992ccbb275e681c543c", null ],
+      [ "bLockReservedOtp", "dd/dff/structphalTop__T2T__Sector.html#a88fdea738c23684bd0d2d37eb6f0c17c", null ],
+      [ "bValidity", "dd/dff/structphalTop__T2T__Sector.html#a56c43fbdda368d52f023951a2116712c", null ]
+    ] ],
+    [ "phalTop_T1T", "db/dae/structphalTop__T1T.html", [
+      [ "pAlT1TDataParams", "db/dae/structphalTop__T1T.html#a5b144e449871f9e77ab7e6529d2a5c1b", null ],
+      [ "bRwa", "db/dae/structphalTop__T1T.html#a7caf851a511512fb032a02542d8d2f32", null ],
+      [ "bTms", "db/dae/structphalTop__T1T.html#a6c63c3a77e89304ae30231b881b67166", null ],
+      [ "bTagMemoryType", "db/dae/structphalTop__T1T.html#a66fcf2bc59e3cdf3ee865d93234c3ed9", null ],
+      [ "bTerminatorTlvPresence", "db/dae/structphalTop__T1T.html#a757c08bbf282d932de8ba2dd481a5a2e", null ],
+      [ "bLockTlvCount", "db/dae/structphalTop__T1T.html#a3c19a62f08bd94ab1377e2be13c7389f", null ],
+      [ "bMemoryTlvCount", "db/dae/structphalTop__T1T.html#a386d6b9de8d39f64abf47608f93c667d", null ],
+      [ "wNdefHeaderAddr", "db/dae/structphalTop__T1T.html#a83024f3b901bd5591753cc09472ec6e2", null ],
+      [ "wNdefMsgAddr", "db/dae/structphalTop__T1T.html#acddaf678bc60fb0f76e97c2d06e544eb", null ],
+      [ "bUid", "db/dae/structphalTop__T1T.html#abe59f0b66a73c160cc446c515ac80d2a", null ],
+      [ "asMemCtrlTlv", "db/dae/structphalTop__T1T.html#a6805f816691a91a62a32d6f9c547b22c", null ],
+      [ "asLockCtrlTlv", "db/dae/structphalTop__T1T.html#ad34a69f23dbb7897f6c0ee1bf2c315db", null ],
+      [ "sSegment", "db/dae/structphalTop__T1T.html#a8dedee944a7a5f20232d8ec4a16f6f4f", null ]
+    ] ],
+    [ "phalTop_T2T", "dd/df0/structphalTop__T2T.html", [
+      [ "pAlT2TDataParams", "dd/df0/structphalTop__T2T.html#a06a8f43847dcf900347620a0be266360", null ],
+      [ "bRwa", "dd/df0/structphalTop__T2T.html#aa41eb7355b25f4fa39aafeaeeadfbdc6", null ],
+      [ "bTms", "dd/df0/structphalTop__T2T.html#ab01d88f0d2a5569029fca2ef115ddaee", null ],
+      [ "bTagMemoryType", "dd/df0/structphalTop__T2T.html#aab25f71be9387abc4aa519c2d678d08a", null ],
+      [ "bLockTlvCount", "dd/df0/structphalTop__T2T.html#ac090248da684bd507e7cfad775208501", null ],
+      [ "bMemoryTlvCount", "dd/df0/structphalTop__T2T.html#a549799cf68e254c87a603f5b4f9b7d0b", null ],
+      [ "wNdefHeaderAddr", "dd/df0/structphalTop__T2T.html#a00e2a54427bf283f58559b376946ee9e", null ],
+      [ "wNdefMsgAddr", "dd/df0/structphalTop__T2T.html#aeda622931d28171eaed908b8b4d58790", null ],
+      [ "asMemCtrlTlv", "dd/df0/structphalTop__T2T.html#a7e834ab6ca47b0eb1f9549b6c0c7c863", null ],
+      [ "asLockCtrlTlv", "dd/df0/structphalTop__T2T.html#afc63fc29c97f973c22e5e9b77e90b9bf", null ],
+      [ "sSector", "dd/df0/structphalTop__T2T.html#ac7ae33efcf22a160797d4ebb2a724623", null ]
+    ] ],
+    [ "phalTop_T3T", "dc/ddc/structphalTop__T3T.html", [
+      [ "pAlT3TDataParams", "dc/ddc/structphalTop__T3T.html#af7be62aa32d8f39b882f1e73783d6400", null ],
+      [ "bRwa", "dc/ddc/structphalTop__T3T.html#ade1097e3c4b5e6ed537ccf1141f124fc", null ],
+      [ "bNbr", "dc/ddc/structphalTop__T3T.html#ac0d651ba8e82361f68e4f9f82a1df602", null ],
+      [ "bNbw", "dc/ddc/structphalTop__T3T.html#a5168cb4422d30723d6f9de687fd0e938", null ],
+      [ "bNmaxb", "dc/ddc/structphalTop__T3T.html#a6a03788d6fb39371a7ddb7d78c5e6ee3", null ],
+      [ "bUid", "dc/ddc/structphalTop__T3T.html#a944183290b5b6e3354c02c8cee2a39ea", null ],
+      [ "bAttributeBlock", "dc/ddc/structphalTop__T3T.html#a198db8b7022e868e4a42e7c7b1bb75cf", null ]
+    ] ],
+    [ "phalTop_T4T", "df/dd3/structphalTop__T4T.html", [
+      [ "pAlT4TDataParams", "df/dd3/structphalTop__T4T.html#a39a53ace181556495fbe2cae25b5bdd7", null ],
+      [ "aNdefFileID", "df/dd3/structphalTop__T4T.html#afa355a60b18e937d1f13e00bf7c0d2c1", null ],
+      [ "bRa", "df/dd3/structphalTop__T4T.html#a7f6cd9f760c1dd080b3b9b0165c97514", null ],
+      [ "bWa", "df/dd3/structphalTop__T4T.html#a2dc7c54f1036f04dc5a6b7836feb303e", null ],
+      [ "bCurrentSelectedFile", "df/dd3/structphalTop__T4T.html#a02bb17008ffb5879e9a8c93b731fa49d", null ],
+      [ "wMLe", "df/dd3/structphalTop__T4T.html#ab17d80de9aeb0dfffad5843ab2f64ec1", null ],
+      [ "wMLc", "df/dd3/structphalTop__T4T.html#a28e5c238836e8800c8b2606287dc88d0", null ],
+      [ "wCCLEN", "df/dd3/structphalTop__T4T.html#a257693511226a01a8f24890e7fd4b289", null ],
+      [ "wMaxFileSize", "df/dd3/structphalTop__T4T.html#a76dc756ef9361a68c726ce7a6e74d237", null ]
+    ] ],
+    [ "phalTop_T5T", "d6/dc4/structphalTop__T5T.html", [
+      [ "pAlI15693DataParams", "d6/dc4/structphalTop__T5T.html#a344ea6de66c7b4178b6a46804176f0ac", null ],
+      [ "bRwa", "d6/dc4/structphalTop__T5T.html#ae1b44619ea23eb72cd17f5eb3e7ef30c", null ],
+      [ "bTerminatorTlvPresence", "d6/dc4/structphalTop__T5T.html#a6c004dfae809b6252d4caff6f475b73d", null ],
+      [ "bMbRead", "d6/dc4/structphalTop__T5T.html#a571f948d2907080cc65b166404bfb08e", null ],
+      [ "bLockBlock", "d6/dc4/structphalTop__T5T.html#a8ba57cc98ce9897bd2b8ea15aabf8b20", null ],
+      [ "bSplFrm", "d6/dc4/structphalTop__T5T.html#a6363eef73ceaa5a3413dc1b66fc07ebb", null ],
+      [ "bExtendedCommandSupport", "d6/dc4/structphalTop__T5T.html#ae28a8ab0b75b4735f3266247abf62b03", null ],
+      [ "bOptionFlag", "d6/dc4/structphalTop__T5T.html#ad77aadd55eb972d6561df9998f2342a0", null ],
+      [ "wMlen", "d6/dc4/structphalTop__T5T.html#a7c7bec8130b539fb7ccc21f3d9050ec6", null ],
+      [ "wNdefHeaderAddr", "d6/dc4/structphalTop__T5T.html#a94a76d90a4cbed12d3279379aa4dd9f1", null ],
+      [ "wNdefMsgAddr", "d6/dc4/structphalTop__T5T.html#a8bb6383947d4a9d2e6eefdbc91d84b5f", null ],
+      [ "bBlockSize", "d6/dc4/structphalTop__T5T.html#aa52a7bf6d6380a8f9f39c175e1da64d3", null ],
+      [ "bMaxBlockNum", "d6/dc4/structphalTop__T5T.html#a75f17e639f2328eae97628bfb9f357cf", null ]
+    ] ],
+    [ "phalTop_Sw_DataParams", "d1/d13/structphalTop__Sw__DataParams.html", [
+      [ "wId", "d1/d13/structphalTop__Sw__DataParams.html#a4e2359e45aa198dfa7748955c7798746", null ],
+      [ "bTagType", "d1/d13/structphalTop__Sw__DataParams.html#a951e3b5c8f5b41e24234ddf852a1bd7a", null ],
+      [ "bVno", "d1/d13/structphalTop__Sw__DataParams.html#ae153dd02e678c6bf086a0398258cddbb", null ],
+      [ "bTagState", "d1/d13/structphalTop__Sw__DataParams.html#aa89f2a929e18d99ccd0af174ab0cdd33", null ],
+      [ "wNdefLength", "d1/d13/structphalTop__Sw__DataParams.html#a132369eda361d5cc7fa0c812ab23f114", null ],
+      [ "wMaxNdefLength", "d1/d13/structphalTop__Sw__DataParams.html#a73cf6b37bae308d570641c7bb3fd982a", null ],
+      [ "pTopTagsDataParams", "d1/d13/structphalTop__Sw__DataParams.html#a9f0018942452ce5727b4e830f1e90cf1", null ],
+      [ "salTop_T1T", "d1/d13/structphalTop__Sw__DataParams.html#af7804a98ddd2325c12fd7da397e1dbe6", null ],
+      [ "salTop_T2T", "d1/d13/structphalTop__Sw__DataParams.html#a86fdf198d5c6959e73748deac5e30c05", null ],
+      [ "salTop_T3T", "d1/d13/structphalTop__Sw__DataParams.html#a0aae05020ecdb03ba3fe162db619ccf1", null ],
+      [ "salTop_T4T", "d1/d13/structphalTop__Sw__DataParams.html#aebec057355dbf42aa84523f137453048", null ],
+      [ "salTop_T5T", "d1/d13/structphalTop__Sw__DataParams.html#a39b14118be501ce43f393b1a19663043", null ]
+    ] ],
+    [ "PHAL_TOP_SW_ID", "d2/d7b/group__phalTop__Sw.html#gab0ec64e7943e87301e2bed113084c9cd", null ],
+    [ "PHAL_TOP_MAX_TAGTYPE_SUPPORTED", "d2/d7b/group__phalTop__Sw.html#ga5bc6a3ebad042cd6168ce0e91ae48a6a", null ],
+    [ "PHAL_TOP_T1T_MAX_MEM_CTRL_TLV", "d2/d7b/group__phalTop__Sw.html#ga0f28e179a019e26d3be5c0bdb9fb2572", null ],
+    [ "PHAL_TOP_T1T_MAX_LOCK_CTRL_TLV", "d2/d7b/group__phalTop__Sw.html#ga464bb2ea30c3d10b950a15a96094774d", null ],
+    [ "PHAL_TOP_T2T_MAX_MEM_CTRL_TLV", "d2/d7b/group__phalTop__Sw.html#ga62f2bd9f6285f6875bee63c09f9d779c", null ],
+    [ "PHAL_TOP_T2T_MAX_LOCK_CTRL_TLV", "d2/d7b/group__phalTop__Sw.html#gad62d982e89c54b5e255c68a7cb7c8db5", null ],
+    [ "PHAL_TOP_T3T_READ_MAX_BLOCKS", "d2/d7b/group__phalTop__Sw.html#gaa3aee85e57a1dcce6d74ac8a695a525e", null ],
+    [ "PHAL_TOP_T3T_WRITE_MAX_BLOCKS", "d2/d7b/group__phalTop__Sw.html#gac5e563eb171c74212ff0b0c1e1e9dd84", null ],
+    [ "PHAL_TOP_T1T_NDEF_SUPPORTED_VNO", "d2/d7b/group__phalTop__Sw.html#gaadcc31d7f29acae6a7874ba8cb7ff477", null ],
+    [ "PHAL_TOP_T2T_NDEF_SUPPORTED_VNO", "d2/d7b/group__phalTop__Sw.html#gaf775ca089a2d3ce81955710495bfa63f", null ],
+    [ "PHAL_TOP_T3T_NDEF_SUPPORTED_VNO", "d2/d7b/group__phalTop__Sw.html#gaa4cded92d94573ea730da3ac1ddd83c3", null ],
+    [ "PHAL_TOP_T4T_NDEF_SUPPORTED_VNO", "d2/d7b/group__phalTop__Sw.html#ga0ebb7e819515d3b73c4d999587b348dc", null ],
+    [ "PHAL_TOP_T5T_NDEF_SUPPORTED_VNO", "d2/d7b/group__phalTop__Sw.html#gaa286f08cf28cf689a3191f80453366e2", null ],
+    [ "PHAL_TOP_ERR_READONLY_TAG", "d2/d7b/group__phalTop__Sw.html#ga7e15f57b6d75630023454a6c5b75e38d", null ],
+    [ "PHAL_TOP_ERR_INVALID_STATE", "d2/d7b/group__phalTop__Sw.html#gafb6408a9065e2e02c4a760510026f68b", null ],
+    [ "PHAL_TOP_ERR_FORMATTED_TAG", "d2/d7b/group__phalTop__Sw.html#ga804ff038cadfb8458dd5f391c3ba67bd", null ],
+    [ "PHAL_TOP_ERR_UNSUPPORTED_VERSION", "d2/d7b/group__phalTop__Sw.html#ga150c17cdec38721f7fd9e995258176e4", null ],
+    [ "PHAL_TOP_ERR_MISCONFIGURED_TAG", "d2/d7b/group__phalTop__Sw.html#ga7c9520a988bf83f4ce6afc4f4b3e624e", null ],
+    [ "PHAL_TOP_ERR_UNSUPPORTED_TAG", "d2/d7b/group__phalTop__Sw.html#ga8dfd330269d79ba4e4156b3df30b87e7", null ],
+    [ "PHAL_TOP_ERR_EMPTY_NDEF", "d2/d7b/group__phalTop__Sw.html#gad1438a9b5d6bc3089dfcb96557bf133f", null ],
+    [ "PHAL_TOP_ERR_NON_NDEF_TAG", "d2/d7b/group__phalTop__Sw.html#ga2f165e9645388a0ed85485ee732c89d7", null ],
+    [ "phalTop_T1T_LockCtrlTlv_t", "d2/d7b/group__phalTop__Sw.html#ga0b2eddf34baa1e63ed66725f851f5bde", null ],
+    [ "phalTop_T1T_MemCtrlTlv_t", "d2/d7b/group__phalTop__Sw.html#gab97688addc0948e53dac6dbd906d2d29", null ],
+    [ "phalTop_T1T_ProprietaryTlv_t", "d2/d7b/group__phalTop__Sw.html#ga1ba4e69f994317f913dd7fd4177d397f", null ],
+    [ "phalTop_TIT_Segment_t", "d2/d7b/group__phalTop__Sw.html#gad4281656d649c61eea7f6329de8692c8", null ],
+    [ "phalTop_T2T_LockCtrlTlv_t", "d2/d7b/group__phalTop__Sw.html#ga5205b1e91e8b2743f8519c03c3bf932d", null ],
+    [ "phalTop_T2T_MemCtrlTlv_t", "d2/d7b/group__phalTop__Sw.html#gab4c0eccde8e1ff19ff774f2d7dccec7d", null ],
+    [ "phalTop_T2T_Sector_t", "d2/d7b/group__phalTop__Sw.html#ga90d9e519f89ec1c53d0954443edd7db4", null ],
+    [ "phalTop_T1T_t", "d2/d7b/group__phalTop__Sw.html#ga6913f56f05785f543af0cc2c18e2b568", null ],
+    [ "phalTop_T2T_t", "d2/d7b/group__phalTop__Sw.html#ga01a1e0539f8b49968270276e7615b9cb", null ],
+    [ "phalTop_T3T_t", "d2/d7b/group__phalTop__Sw.html#ga0e9e2181c80820c1e31d062e767fcc28", null ],
+    [ "phalTop_T4T_t", "d2/d7b/group__phalTop__Sw.html#ga00f570a30481b0ec44907267e823cc15", null ],
+    [ "phalTop_T5T_t", "d2/d7b/group__phalTop__Sw.html#ga30eb4b95b7f507a19cd251abb903ee28", null ],
+    [ "phalTop_Sw_DataParams_t", "d2/d7b/group__phalTop__Sw.html#ga8a748f100f6b89f06a8c7f6e7af5c4b2", null ],
+    [ "phalTop_Sw_Init", "d2/d7b/group__phalTop__Sw.html#gad6502474aa30a1f605da5bded97fe5a0", null ]
+];

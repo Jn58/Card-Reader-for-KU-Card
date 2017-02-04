@@ -1,0 +1,27 @@
+var group__phhalHw__Rc663__Config =
+[
+    [ "PHHAL_HW_RC663_PRECACHED_255BYTES", "d0/da3/group__phhalHw__Rc663__Config.html#ga07546551a2320d5f9cb99e8e0a2f49f4", null ],
+    [ "PHHAL_HW_RC663_PRECACHED_512BYTES", "d0/da3/group__phhalHw__Rc663__Config.html#ga28b0c190fed63957df3018db76e44be0", null ],
+    [ "PHHAL_HW_RC663_MODINDEX_I14443B", "d0/da3/group__phhalHw__Rc663__Config.html#gab53b22f7f650608b061e6ab9fd0c7a98", null ],
+    [ "PHHAL_HW_RC663_MODINDEX_FELICA", "d0/da3/group__phhalHw__Rc663__Config.html#ga306c455d225a3e8b4ee55c65fa0d4109", null ],
+    [ "PHHAL_HW_RC663_MODINDEX_I15693", "d0/da3/group__phhalHw__Rc663__Config.html#gab2764e90dd114a760e44b42cf4a5ec3f", null ],
+    [ "PHHAL_HW_RC663_MODINDEX_EPCUID", "d0/da3/group__phhalHw__Rc663__Config.html#ga0a5ad6b8b8c781e99f32996b08387111", null ],
+    [ "PHHAL_HW_RC663_MODINDEX_I18000P3M3", "d0/da3/group__phhalHw__Rc663__Config.html#ga98951aec9b0a7a3e209f75627561890e", null ],
+    [ "PHHAL_HW_RC663_RXTHRESHOLD_I14443A_106", "d0/da3/group__phhalHw__Rc663__Config.html#ga072fc6a954cd9e43c39d4845b967d7f1", null ],
+    [ "PHHAL_HW_RC663_RXTHRESHOLD_I14443A_212", "d0/da3/group__phhalHw__Rc663__Config.html#gac93a83f13335ec17b3799d1d548a975d", null ],
+    [ "PHHAL_HW_RC663_RXTHRESHOLD_I14443A_424", "d0/da3/group__phhalHw__Rc663__Config.html#ga1c06f6ae4e332f9ea23167f2f0c536bd", null ],
+    [ "PHHAL_HW_RC663_RXTHRESHOLD_I14443A_848", "d0/da3/group__phhalHw__Rc663__Config.html#ga0270a027af3a0ccf61536d749931eb93", null ],
+    [ "PHHAL_HW_RC663_RXTHRESHOLD_I14443B_106", "d0/da3/group__phhalHw__Rc663__Config.html#gadc551d3ad0893e6161766b52469d5a43", null ],
+    [ "PHHAL_HW_RC663_RXTHRESHOLD_I14443B_212", "d0/da3/group__phhalHw__Rc663__Config.html#ga166b8d220dd53006060df6264ceb1fae", null ],
+    [ "PHHAL_HW_RC663_RXTHRESHOLD_I14443B_424", "d0/da3/group__phhalHw__Rc663__Config.html#ga0e3ce0dadf5a6fc4681d8dfdd997e965", null ],
+    [ "PHHAL_HW_RC663_RXTHRESHOLD_I14443B_848", "d0/da3/group__phhalHw__Rc663__Config.html#gaa691ee82874e7df10c8ff49625cf3ff8", null ],
+    [ "PHHAL_HW_RC663_RXTHRESHOLD_FELICA_212", "d0/da3/group__phhalHw__Rc663__Config.html#gadb5036eb203104c5d9b601349919d217", null ],
+    [ "PHHAL_HW_RC663_RXTHRESHOLD_FELICA_424", "d0/da3/group__phhalHw__Rc663__Config.html#gae50c38688fff49930bbfc9ee25a1a29b", null ],
+    [ "PHHAL_HW_RC663_RXTHRESHOLD_I15693_FAST", "d0/da3/group__phhalHw__Rc663__Config.html#ga7eee96c80d8c2fe2863a4a2f5216ed83", null ],
+    [ "PHHAL_HW_RC663_RXTHRESHOLD_I15693_FAST_HIGH", "d0/da3/group__phhalHw__Rc663__Config.html#gafbf216d1779cae04e047a9e438fa4395", null ],
+    [ "PHHAL_HW_RC663_RXTHRESHOLD_EPCUID", "d0/da3/group__phhalHw__Rc663__Config.html#ga059ddd2f88e8472701a93e3ba8bdd2e9", null ],
+    [ "PHHAL_HW_RC663_RXTHRESHOLD_I18000P3M3", "d0/da3/group__phhalHw__Rc663__Config.html#ga49b06f5031522be9ebeeb6d5338fe435", null ],
+    [ "PHHAL_HW_RC663_LPCD_T3_RELOAD_MIN", "d0/da3/group__phhalHw__Rc663__Config.html#ga2db87b17cb75e0d4dde49d39a90e08c0", null ],
+    [ "PHHAL_HW_RC663_LPCD_T4_RELOAD_MIN", "d0/da3/group__phhalHw__Rc663__Config.html#ga1111054eb50e6fa42e9f911453fbe275", null ],
+    [ "PHHAL_HW_RC663_FEATURE_FIFO_UNDERFLOW_CHECK", "d0/da3/group__phhalHw__Rc663__Config.html#ga680b9718c7daa34d093a823e98e39472", null ]
+];
