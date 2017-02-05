@@ -79,6 +79,7 @@ static phStatus_t EmvcoRfReset(uint32_t delayInMs);
 /*******************************************************************************
 **   Main Function
 *******************************************************************************/
+int state=0; //- is closed. 1 is opened
 
 int main (void)
 {
@@ -94,7 +95,7 @@ int main (void)
         CHECK_NFCLIB_STATUS(dwStatus);
         if(dwStatus != PH_NFCLIB_STATUS_SUCCESS) break;
 
-        DEBUG_PRINTF("\n Emvco compliance example: ");
+        DEBUG_PRINTF("\n Student Card Reader");
 
 #ifndef NXPBUILD__PH_OSAL_NULLOS
 
@@ -151,12 +152,22 @@ void Emvco_LoopBack(void * pHalParams)
 			char buffer[256];
 			char *res;
 			response_buffer[respsize-2]=0;
-			DEBUG_PRINTF("\n Recieved Passcde : %s",response_buffer);
+			DEBUG_PRINTF("\n\n\n\n\n Recieved Passcde : %s",response_buffer);
 			sprintf(buffer,"passcode=%s",response_buffer);
 			res=sendPost(URL,buffer);	
 			if(strcmp(res,"ok")==0)
 			{
-				DEBUG_PRINTF("\n Authentication Success.");
+				DEBUG_PRINTF("\n\n Authentication Success.");
+				if(state==0)
+				{
+					DEBUG_PRINTF("\n Door Open.");
+					state=1;
+				}
+				else
+				{
+					DEBUG_PRINTF("\n Door Close.");
+					state=0;
+				}
 				usleep(2000000);
 			}
 			else
