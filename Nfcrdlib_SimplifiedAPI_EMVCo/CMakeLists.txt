@@ -44,5 +44,6 @@ TARGET_LINK_LIBRARIES(
     NxpRdLib_npSnep
     NxpRdLib_phNfcLib
     NxpRdLib_palEpcUid
+    curl
 )
 

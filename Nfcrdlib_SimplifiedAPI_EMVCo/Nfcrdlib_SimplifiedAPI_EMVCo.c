@@ -39,6 +39,7 @@
 
 /* Local headers */
 #include "Nfcrdlib_SimplifiedAPI_EMVCo.h"
+#include "postSend.h"
 
 /*******************************************************************************
 **   Global Defines
