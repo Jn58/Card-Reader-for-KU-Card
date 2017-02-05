@@ -40,8 +40,10 @@
 /* Local headers */
 #include "Nfcrdlib_SimplifiedAPI_EMVCo.h"
 #include <stdlib.h>
+#include <stdio.h>
 #include "postSend.h"
 #include <wiringPi.h>
+#include <unistd.h>
 #define URL "http://127.0.0.1"
 /*******************************************************************************
 **   Global Defines
@@ -149,17 +151,20 @@ void Emvco_LoopBack(void * pHalParams)
 			char buffer[256];
 			char *res;
 			response_buffer[respsize-2]=0;
+			DEBUG_PRINTF("\n Recieved Passcde : %s",response_buffer);
 			sprintf(buffer,"passcode=%s",response_buffer);
 			res=sendPost(URL,buffer);	
-			DEBUG_PRINTF("\n %s",res);
-			free(res);
-			DEBUG_PRINTF("\n ");
-			int i;
-			for(i=0;i<respsize-2;i++)
+			if(strcmp(res,"ok")==0)
 			{
-				DEBUG_PRINTF("%c",response_buffer[i]);
+				DEBUG_PRINTF("\n Authentication Success.");
+				usleep(2000000);
 			}
-
+			else
+			{
+				DEBUG_PRINTF("\n Authentication Fail. Try again.");
+				usleep(2000000);
+			}
+			free(res);
 		}
 	    }
         }
