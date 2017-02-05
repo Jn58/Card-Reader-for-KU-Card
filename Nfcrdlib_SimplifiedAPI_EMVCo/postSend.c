@@ -155,7 +155,7 @@ char * sendPost(char *url, char * post) {
     /* check payload */
     if (cf->payload != NULL) {
         /* print result */
-        printf("CURL Returned: \n%s\n", cf->payload);        
+        //printf("CURL Returned: \n%s\n", cf->payload);        
         /* free payload */
         return cf->payload;
     } else {

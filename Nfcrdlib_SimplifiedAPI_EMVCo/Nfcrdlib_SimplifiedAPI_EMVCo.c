@@ -39,8 +39,10 @@
 
 /* Local headers */
 #include "Nfcrdlib_SimplifiedAPI_EMVCo.h"
+#include <stdlib.h>
 #include "postSend.h"
-
+#include <wiringPi.h>
+#define URL "http://127.0.0.1"
 /*******************************************************************************
 **   Global Defines
 *******************************************************************************/
@@ -144,6 +146,13 @@ void Emvco_LoopBack(void * pHalParams)
                 dwStatus = phNfcLib_Receive(response_buffer, &respsize, NULL);
                 if ((dwStatus == PH_NFCLIB_STATUS_SUCCESS) && (respsize > 0))
                 {
+			char buffer[256];
+			char *res;
+			response_buffer[respsize-2]=0;
+			sprintf(buffer,"passcode=%s",response_buffer);
+			res=sendPost(URL,buffer);	
+			DEBUG_PRINTF("\n %s",res);
+			free(res);
 			DEBUG_PRINTF("\n ");
 			int i;
 			for(i=0;i<respsize-2;i++)
